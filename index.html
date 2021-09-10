@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>swf播放器</title>
+</head>
+
+<body>
+
+<div id="a1"></div>
+<script type="text/javascript" src="/ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript">
+var flashvars={
+   f:'/ckplayer/m3u8.swf',
+   a:'http://dyzyk.net/mov/1/1.m3u8',
+   c:0,
+   s:4,
+   lv:0//注意，如果是直播，需设置lv:1
+};
+    var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+    var video=['http://dyzyk.net/mov/1/1.m3u8->video/mp4'];
+    CKobject.embed('/ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
+</script>
+
+
+
+
+</body>
+</html>
