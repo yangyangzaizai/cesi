@@ -1,4 +1,4 @@
 # cesi
-http://wwww.cs.cn/login/
+http://cs.cn/login/
 <br />
-http://wwww.cs.cn/login/cs.php
+http://cs.cn/login/cs.php
